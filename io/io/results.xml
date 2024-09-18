@@ -1,0 +1,6 @@
+<results>
+<resultcode>1</resultcode>
+<error><![CDATA[
+ERROR: error reading /io/My.java; /io/My.java
+ Line -1 in file:///io/My.java]]></error>
+</results>

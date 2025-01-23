@@ -23,7 +23,7 @@ public class TestExecutor {
 
         try {
             // Create a URL for the directory containing the test classes
-            URL[] classLoaderUrls = new URL[] { new URL("file://" + this.testPath) };
+            URL[] classLoaderUrls = new URL[] { new URL("file://" + this.testPath + "/") };
 
             // Create a new class loader with the directory
             URLClassLoader urlClassLoader = new URLClassLoader(classLoaderUrls);

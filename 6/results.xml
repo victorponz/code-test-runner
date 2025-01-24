@@ -1,15 +1,19 @@
 <results>
-<resultcode>0</resultcode>
+<resultcode>3</resultcode>
+<error><![CDATA[
+test(AfortunadosTest): expected:<[2]> but was:<[]>]]></error>
+</results><results>
+<resultcode>3</resultcode>
+<error><![CDATA[
+test(AfortunadosTest): expected:<[2]> but was:<[]>]]></error>
 </results><results>
 <resultcode>0</resultcode>
 </results><results>
-<resultcode>0</resultcode>
+<resultcode>3</resultcode>
+<error><![CDATA[
+test(AfortunadosTest): expected:<[2]> but was:<[]>]]></error>
 </results><results>
-<resultcode>0</resultcode>
-</results><results>
-<resultcode>0</resultcode>
-</results><results>
-<resultcode>0</resultcode>
-</results><results>
-<resultcode>0</resultcode>
+<resultcode>3</resultcode>
+<error><![CDATA[
+test(AfortunadosTest): expected:<[2]> but was:<[]>]]></error>
 </results>

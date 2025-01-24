@@ -20,7 +20,7 @@ public class CodeTestRunner {
         //Lista para añadir las clases a compilar
         List<String> sources = new ArrayList<>();
         //Añadimos la clase
-        sources.add( System.getProperty("user.dir") + "/" + path + "/" + classCode + ".java");
+        sources.add("./" + path + "/" + classCode + ".java");
 
         CompileSource compileSource = new CompileSource(sources);
         compileSource.compile();
@@ -31,7 +31,7 @@ public class CodeTestRunner {
         }else{
             // 2º Compilar el test junto con el programa
             // Añadimos el test
-            sources.add( System.getProperty("user.dir") + "/" + path + "/" + classCode + "Test.java");
+            sources.add( "./" + path + "/" + classCode + "Test.java");
 
             compileSource.compile();
 

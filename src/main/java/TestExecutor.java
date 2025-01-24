@@ -1,5 +1,8 @@
 import java.net.URL;
 import java.net.URLClassLoader;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
@@ -11,7 +14,7 @@ public class TestExecutor {
     private boolean succees;
     public TestExecutor(String testClassName, String testPath){
         this.testClassName = testClassName;
-        this.testPath =  System.getProperty("user.dir") + "/" + testPath;
+        this.testPath =  "./" + testPath;
         this.testError = new StringBuilder();
     }
 
@@ -22,8 +25,12 @@ public class TestExecutor {
         System.out.println("Classpath: " + System.getProperty("java.class.path"));
 
         try {
-            // Create a URL for the directory containing the test classes
-            URL[] classLoaderUrls = new URL[] { new URL("file://" + this.testPath + "/") };
+            // Get the current working directory
+            Path currentDir = Paths.get("").toAbsolutePath();
+
+            // Create a URL relative to the current working directory
+            Path relativePath = currentDir.resolve(this.testPath);
+            URL[] classLoaderUrls = new URL[] { relativePath.toUri().toURL() };
 
             // Create a new class loader with the directory
             URLClassLoader urlClassLoader = new URLClassLoader(classLoaderUrls);

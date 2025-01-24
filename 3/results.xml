@@ -1,0 +1,10 @@
+<results>
+<resultcode>1</resultcode>
+<error><![CDATA[
+ERROR: error reading /3/Afortunados.java; /3/Afortunados.java
+ Line -1 in file:///3/Afortunados.java]]></error>
+</results><results>
+<resultcode>3</resultcode>
+<error><![CDATA[
+test(AfortunadosTest): expected:<[2]> but was:<[res]>]]></error>
+</results>

@@ -8,4 +8,70 @@
 <resultcode>0</resultcode>
 </results><results>
 <resultcode>0</resultcode>
+</results><results>
+<resultcode>1</resultcode>
+<error><![CDATA[
+ERROR: error reading /home/alumno/Documentos/codetest/CodeTestMaster/home/alumno/Documentos/codetest/CodeTestRunner/io/6/Afortunados.java; /home/alumno/Documentos/codetest/CodeTestMaster/home/alumno/Documentos/codetest/CodeTestRunner/io/6/Afortunados.java
+ Line -1 in file:///home/alumno/Documentos/codetest/CodeTestMaster/home/alumno/Documentos/codetest/CodeTestRunner/io/6/Afortunados.java]]></error>
+</results><results>
+<resultcode>3</resultcode>
+<error><![CDATA[
+test(AfortunadosTest): expected:<[2]> but was:<[]>]]></error>
+</results><results>
+<resultcode>1</resultcode>
+<error><![CDATA[
+ERROR: error reading /home/alumno/Documentos/codetest/home/alumno/Documentos/codetest/CodeTestRunner/io/6/Afortunados.java; /home/alumno/Documentos/codetest/home/alumno/Documentos/codetest/CodeTestRunner/io/6/Afortunados.java
+ Line -1 in file:///home/alumno/Documentos/codetest/home/alumno/Documentos/codetest/CodeTestRunner/io/6/Afortunados.java]]></error>
+</results><results>
+<resultcode>1</resultcode>
+<error><![CDATA[
+ERROR: error reading /home/alumno/Documentos/codetest/CodeTestRunner/home/alumno/Documentos/codetest/CodeTestRunner/io/6/Afortunados.java; /home/alumno/Documentos/codetest/CodeTestRunner/home/alumno/Documentos/codetest/CodeTestRunner/io/6/Afortunados.java
+ Line -1 in file:///home/alumno/Documentos/codetest/CodeTestRunner/home/alumno/Documentos/codetest/CodeTestRunner/io/6/Afortunados.java]]></error>
+</results><results>
+<resultcode>3</resultcode>
+<error><![CDATA[
+test(AfortunadosTest): expected:<[2]> but was:<[]>]]></error>
+</results><results>
+<results>
+<resultcode>3</resultcode>
+<error><![CDATA[
+test(AfortunadosTest): expected:<[2]> but was:<[]>]]></error>
+</results><results>
+<resultcode>1</resultcode>
+<error><![CDATA[
+ERROR: error reading /home/alumno/Documentos/codetest/CodeTestMaster/home/alumno/Documentos/codetest/CodeTestRunner/io/6/Afortunados.java; /home/alumno/Documentos/codetest/CodeTestMaster/home/alumno/Documentos/codetest/CodeTestRunner/io/6/Afortunados.java
+ Line -1 in file:///home/alumno/Documentos/codetest/CodeTestMaster/home/alumno/Documentos/codetest/CodeTestRunner/io/6/Afortunados.java]]></error>
+</results><results>
+<resultcode>1</resultcode>
+<error><![CDATA[
+ERROR: error reading /home/alumno/Documentos/codetest/CodeTestRunner/home/alumno/Documentos/codetest/CodeTestRunner/io/6/Afortunados.java; /home/alumno/Documentos/codetest/CodeTestRunner/home/alumno/Documentos/codetest/CodeTestRunner/io/6/Afortunados.java
+ Line -1 in file:///home/alumno/Documentos/codetest/CodeTestRunner/home/alumno/Documentos/codetest/CodeTestRunner/io/6/Afortunados.java]]></error>
+</results><results>
+<resultcode>3</resultcode>
+<error><![CDATA[
+test(AfortunadosTest): expected:<[2]> but was:<[]>]]></error>
+</results><results>
+<resultcode>3</resultcode>
+<error><![CDATA[
+test(AfortunadosTest): expected:<[2]> but was:<[]>]]></error>
+</results><results>
+<resultcode>3</resultcode>
+<error><![CDATA[
+test(AfortunadosTest): expected:<[2]> but was:<[]>]]></error>
+</results><results>
+<resultcode>0</resultcode>
+</results><results>
+<resultcode>3</resultcode>
+<error><![CDATA[
+test(AfortunadosTest): expected:<[2]> but was:<[]>]]></error>
+</results><results>
+<resultcode>0</resultcode>
+</results><results>
+<resultcode>3</resultcode>
+<error><![CDATA[
+test(AfortunadosTest): expected:<[2]> but was:<[]>]]></error>
+</results><results>
+<resultcode>3</resultcode>
+<error><![CDATA[
+test(AfortunadosTest): expected:<[2]> but was:<[]>]]></error>
 </results>
